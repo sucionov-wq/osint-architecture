@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Архитектура OSINT</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background: url('images/bg.jpg') no-repeat center center/cover;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.7);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .logo {
+            width: 180px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .description {
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.6;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 40px;
+            text-align: left;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .avatar {
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .about-text {
+            max-width: 500px;
+        }
+
+        @media (max-width: 700px) {
+            .about {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <div class="container">
+
+        <!-- ЛОГО -->
+        <img src="images/logo.png" alt="Архитектура OSINT" class="logo">
+
+        <!-- ОПИСАНИЕ ПРОЕКТА -->
+        <h1>Архитектура OSINT</h1>
+
+        <p class="description">
+            Архитектура OSINT — исследовательский проект, сфокусированный на системном анализе открытых источников информации и методологии цифровой разведки.
+            <br><br>
+            Основная цель — формирование структурированного подхода к работе с данными: от первичного поиска до выявления связей, контекстов и устойчивых информационных закономерностей.
+        </p>
+
+        <!-- ОБО МНЕ -->
+        <div class="about">
+            <img src="images/avatar.jpg" alt="Аватар" class="avatar">
+
+            <div class="about-text">
+                <h2>Обо мне</h2>
+                <p>
+                    OSINT-специалист с 2024 года.<br>
+                    Более 10 закрытых кейсов.<br>
+                    3+ GEOINT-кейса.<br><br>
+                    Специализируюсь на анализе открытых данных, поиске связей и цифровой разведке.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
